@@ -1,0 +1,57 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id             String   @id @default(cuid())
+  email          String   @unique
+  firebaseUid    String?  @unique @map("firebase_uid")
+  name           String
+  password   String?  @map("password")
+  createdAt      DateTime @default(now()) @map("created_at")
+  predictions    Prediction[]
+  @@map("users")
+}
+
+model Team {
+  id        String   @id @default(cuid())
+  name    String   @map("name")
+  flag String?  @map("flag")
+  matchesAsHome Match[] @relation("home")
+  matchesAsAway Match[] @relation("away")
+  @@map("teams")
+}
+
+model Match {
+  id           String   @id @default(cuid())
+  homeTeamId   String   @map("home_team_id")
+  awayTeamId   String   @map("away_team_id")
+  kickoffAt    DateTime @map("kickoff_at")
+  homeScore    Int?     @map("home_score")
+  awayScore    Int?     @map("away_score")
+  apiIds       Json     @map("api_ids")
+  predictions  Prediction[]
+
+  homeTeam Team @relation("home", fields: [homeTeamId], references: [id])
+  awayTeam Team @relation("away", fields: [awayTeamId], references: [id])
+  @@map("matches")
+}
+
+model Prediction {
+  id            String   @id @default(cuid())
+  userId        String   @map("user_id")
+  matchId       String   @map("match_id")
+  homeScorePred Int      @map("home_score_pred")
+  awayScorePred Int      @map("away_score_pred")
+  pointsTotal   Int      @default(0) @map("points_total")
+  createdAt     DateTime @default(now()) @map("created_at")
+
+  user  User  @relation(fields: [userId], references: [id])
+  match Match @relation(fields: [matchId], references: [id])
+  @@map("predictions")
+}
