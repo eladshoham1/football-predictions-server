@@ -16,8 +16,8 @@ export class MatchesService {
       kickoffTime: m.kickoffTime,
       stage: m.stage,
       status: m.status,
-      homeTeam: { id: m.homeTeam.id, name: m.homeTeam.name, code: m.homeTeam.code, flagUrl: m.homeTeam.flagUrl },
-      awayTeam: { id: m.awayTeam.id, name: m.awayTeam.name, code: m.awayTeam.code, flagUrl: m.awayTeam.flagUrl },
+      homeTeam: { id: m.homeTeam.id, name: m.homeTeam.name, hebrewName: m.homeTeam.hebrewName, code: m.homeTeam.code, flagUrl: m.homeTeam.flagUrl },
+      awayTeam: { id: m.awayTeam.id, name: m.awayTeam.name, hebrewName: m.awayTeam.hebrewName, code: m.awayTeam.code, flagUrl: m.awayTeam.flagUrl },
       homeScore: m.homeScore,
       awayScore: m.awayScore,
     }))

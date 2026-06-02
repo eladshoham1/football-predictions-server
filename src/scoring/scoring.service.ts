@@ -39,7 +39,9 @@ export class ScoringService {
         pred.predictedAwayScore,
         match.homeScore,
         match.awayScore,
-        config
+        config,
+        pred.firstGoalScorerId,
+        match.actualFirstGoalScorerId
       )
 
       await this.prisma.matchPrediction.update({
@@ -61,30 +63,46 @@ export class ScoringService {
     predAway: number,
     actualHome: number,
     actualAway: number,
-    config: { correctWinner: number; correctGoalDifference: number; exactScore: number }
+    config: { correctWinner: number; correctGoalDifference: number; exactScore: number },
+    predictedFirstGoalScorerId?: string | null,
+    actualFirstGoalScorerId?: string | null
   ): number {
+    let points = 0
+
     // Exact score = highest points
     if (predHome === actualHome && predAway === actualAway) {
-      return config.exactScore
+      points = config.exactScore
     }
-
-    const predDiff = predHome - predAway
-    const actualDiff = actualHome - actualAway
-
     // Correct goal difference
-    if (predDiff === actualDiff) {
-      return config.correctGoalDifference
+    else {
+      const predDiff = predHome - predAway
+      const actualDiff = actualHome - actualAway
+
+      if (predDiff === actualDiff) {
+        points = config.correctGoalDifference
+      }
+      // Correct winner (or both predicted draw)
+      else {
+        const predWinner = predDiff > 0 ? 'home' : predDiff < 0 ? 'away' : 'draw'
+        const actualWinner = actualDiff > 0 ? 'home' : actualDiff < 0 ? 'away' : 'draw'
+
+        if (predWinner === actualWinner) {
+          points = config.correctWinner
+        }
+      }
     }
 
-    // Correct winner (or both predicted draw)
-    const predWinner = predDiff > 0 ? 'home' : predDiff < 0 ? 'away' : 'draw'
-    const actualWinner = actualDiff > 0 ? 'home' : actualDiff < 0 ? 'away' : 'draw'
-
-    if (predWinner === actualWinner) {
-      return config.correctWinner
+    // First goal scorer bonus: +5 points
+    if (
+      predictedFirstGoalScorerId && 
+      actualFirstGoalScorerId && 
+      predictedFirstGoalScorerId === actualFirstGoalScorerId
+    ) {
+      points += 5
+      this.logger.log(`First goal scorer bonus awarded: +5 points`)
     }
 
-    return 0
+    return points
   }
 
   /**

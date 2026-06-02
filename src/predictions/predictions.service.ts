@@ -5,16 +5,71 @@ import { PrismaService } from '../prisma/prisma.service'
 export class PredictionsService {
   constructor(private prisma: PrismaService) {}
 
-  async upsertForUser(userId: string, payload: { matchId: string; homeScore: number; awayScore: number }) {
+  async upsertForUser(userId: string, payload: { matchId: string; homeScore: number; awayScore: number; firstGoalScorerId?: string }) {
     const existing = await this.prisma.matchPrediction.findFirst({ where: { userId, matchId: payload.matchId } })
     if (existing) {
-      return this.prisma.matchPrediction.update({ where: { id: existing.id }, data: { predictedHomeScore: payload.homeScore, predictedAwayScore: payload.awayScore } })
+      return this.prisma.matchPrediction.update({ 
+        where: { id: existing.id }, 
+        data: { 
+          predictedHomeScore: payload.homeScore, 
+          predictedAwayScore: payload.awayScore,
+          firstGoalScorerId: payload.firstGoalScorerId || null
+        } 
+      })
     }
-    return this.prisma.matchPrediction.create({ data: { userId, matchId: payload.matchId, predictedHomeScore: payload.homeScore, predictedAwayScore: payload.awayScore } })
+    return this.prisma.matchPrediction.create({ 
+      data: { 
+        userId, 
+        matchId: payload.matchId, 
+        predictedHomeScore: payload.homeScore, 
+        predictedAwayScore: payload.awayScore,
+        firstGoalScorerId: payload.firstGoalScorerId || null
+      } 
+    })
   }
 
   async forUserId(userId: string) {
-    return this.prisma.matchPrediction.findMany({ where: { userId }, include: { match: { include: { homeTeam: true, awayTeam: true } } } })
+    return this.prisma.matchPrediction.findMany({ 
+      where: { userId }, 
+      include: { 
+        match: { 
+          include: { 
+            homeTeam: true, 
+            awayTeam: true 
+          } 
+        },
+        firstGoalScorer: {
+          include: {
+            team: true
+          }
+        }
+      } 
+    })
+  }
+
+  async forMatchId(matchId: string) {
+    return this.prisma.matchPrediction.findMany({
+      where: { matchId },
+      include: {
+        user: {
+          select: {
+            id: true,
+            name: true,
+            avatarUrl: true
+          }
+        },
+        firstGoalScorer: {
+          select: {
+            id: true,
+            name: true
+          }
+        }
+      },
+      orderBy: [
+        { pointsAwarded: 'desc' },
+        { user: { name: 'asc' } }
+      ]
+    })
   }
 
   async upsertGroupPrediction(userId: string, payload: { groupName: string; firstPlaceTeamId: string; secondPlaceTeamId: string; thirdPlaceTeamId?: string; fourthPlaceTeamId?: string }) {
@@ -274,7 +329,22 @@ export class PredictionsService {
   async getUserTournamentPrediction(userId: string) {
     return this.prisma.tournamentPrediction.findFirst({
       where: { userId },
-      include: { winnerTeam: true, goldenBootPlayer: true },
+      include: { 
+        winnerTeam: true, 
+        goldenBootPlayer: {
+          include: {
+            team: {
+              select: {
+                id: true,
+                name: true,
+                hebrewName: true,
+                code: true,
+                flagUrl: true
+              }
+            }
+          }
+        }
+      },
     })
   }
 

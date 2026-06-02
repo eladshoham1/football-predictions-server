@@ -1,4 +1,4 @@
-import { Body, Controller, Post, Req, Get, UnauthorizedException, UseGuards } from '@nestjs/common'
+import { Body, Controller, Post, Req, Get, UnauthorizedException, UseGuards, Query } from '@nestjs/common'
 import { PredictionsService } from './predictions.service'
 import { AuthService } from '../auth/auth.service'
 import { MatchLockGuard } from '../guards/match-lock.guard'
@@ -9,7 +9,7 @@ export class PredictionsController {
 
   @Post('match')
   @UseGuards(MatchLockGuard)
-  async upsertMatch(@Req() req: any, @Body() body: { matchId: string; homeScore: number; awayScore: number }) {
+  async upsertMatch(@Req() req: any, @Body() body: { matchId: string; homeScore: number; awayScore: number; firstGoalScorerId?: string }) {
     const auth = req.headers.authorization
     const token = auth ? auth.replace(/^Bearer\s+/, '') : null
     const user = await this.authService.verifyToken(token || '')
@@ -24,6 +24,16 @@ export class PredictionsController {
     const user = await this.authService.verifyToken(token || '')
     if (!user) throw new UnauthorizedException()
     return this.svc.forUserId(user.id)
+  }
+
+  @Get('match/all')
+  async allMatchPredictions(@Req() req: any, @Query('matchId') matchId: string) {
+    const auth = req.headers.authorization
+    const token = auth ? auth.replace(/^Bearer\s+/, '') : null
+    const user = await this.authService.verifyToken(token || '')
+    if (!user) throw new UnauthorizedException()
+    if (!matchId) throw new UnauthorizedException('Match ID is required')
+    return this.svc.forMatchId(matchId)
   }
 
   @Post('group')

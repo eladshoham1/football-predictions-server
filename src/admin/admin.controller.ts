@@ -94,4 +94,18 @@ export class AdminController {
     await this.authenticateAdmin(req)
     return this.adminService.getStats()
   }
+
+  @Post('notifications/trigger')
+  @UseGuards(AdminGuard)
+  async triggerNotifications(@Req() req: any) {
+    await this.authenticateAdmin(req)
+    return this.adminService.triggerNotificationCheck()
+  }
+
+  @Post('email/test')
+  @UseGuards(AdminGuard)
+  async testEmail(@Req() req: any, @Body() body: { email: string }) {
+    await this.authenticateAdmin(req)
+    return this.adminService.testEmailService(body.email)
+  }
 }

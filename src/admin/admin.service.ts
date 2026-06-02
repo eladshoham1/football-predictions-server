@@ -1,6 +1,8 @@
 import { Injectable } from '@nestjs/common'
 import { PrismaService } from '../prisma/prisma.service'
 import { ScoringService } from '../scoring/scoring.service'
+import { EmailService } from '../email/email.service'
+import { MatchNotificationCron } from '../cron/match-notification.cron'
 import { UserRole } from '@prisma/client'
 
 @Injectable()
@@ -8,6 +10,8 @@ export class AdminService {
   constructor(
     private prisma: PrismaService,
     private scoringService: ScoringService,
+    private emailService: EmailService,
+    private notificationCron: MatchNotificationCron,
   ) {}
 
   async getAllUsers() {
@@ -99,6 +103,25 @@ export class AdminService {
       totalPredictions,
       finishedMatches,
       upcomingMatches: totalMatches - finishedMatches,
+    }
+  }
+
+  async triggerNotificationCheck() {
+    await this.notificationCron.triggerNotificationCheck()
+    return { success: true, message: 'Notification check triggered' }
+  }
+
+  async testEmailService(email: string) {
+    const testResult = await this.emailService.sendEmail({
+      to: email,
+      subject: 'Test Email from World Cup 2026 Predictions',
+      html: '<h1>Test Email</h1><p>If you received this email, your email service is configured correctly!</p>',
+    })
+
+    if (testResult) {
+      return { success: true, message: 'Test email sent successfully' }
+    } else {
+      return { success: false, message: 'Failed to send test email' }
     }
   }
 }

@@ -8,7 +8,7 @@ export class TeamsController {
   @Get()
   async list() {
     const teams = await this.prisma.team.findMany()
-    return teams.map((t) => ({ id: t.id, name: t.name, code: t.code, flagUrl: t.flagUrl, groupName: t.groupName }))
+    return teams.map((t) => ({ id: t.id, name: t.name, hebrewName: t.hebrewName, code: t.code, flagUrl: t.flagUrl, groupName: t.groupName }))
   }
 
   @Get('players')
@@ -19,6 +19,7 @@ export class TeamsController {
           select: {
             id: true,
             name: true,
+            hebrewName: true,
             code: true,
             flagUrl: true
           }

@@ -1,0 +1,1010 @@
+[
+  {
+    "id": 1,
+    "externalApiId": "2",
+    "name": "South Africa",
+    "hebrewName": "דרום אפריקה",
+    "code": "RSA",
+    "flagUrl": "https://flagcdn.com/w80/za.png",
+    "groupName": "A"
+  },
+  {
+    "id": 2,
+    "externalApiId": "9",
+    "name": "Brazil",
+    "hebrewName": "ברזיל",
+    "code": "BRA",
+    "flagUrl": "https://flagcdn.com/w80/br.png",
+    "groupName": "C"
+  },
+  {
+    "id": 3,
+    "externalApiId": "12",
+    "name": "Scotland",
+    "hebrewName": "סקוטלנד",
+    "code": "SCO",
+    "flagUrl": "https://flagcdn.com/w80/gb-sct.png",
+    "groupName": "C"
+  },
+  {
+    "id": 4,
+    "externalApiId": "16",
+    "name": "Turkey",
+    "hebrewName": "טורקיה",
+    "code": "TUR",
+    "flagUrl": "https://flagcdn.com/w80/tr.png",
+    "groupName": "D"
+  },
+  {
+    "id": 5,
+    "externalApiId": "19",
+    "name": "Ivory Coast",
+    "hebrewName": "חוף השנהב",
+    "code": "CIV",
+    "flagUrl": "https://flagcdn.com/w80/ci.png",
+    "groupName": "E"
+  },
+  {
+    "id": 6,
+    "externalApiId": "21",
+    "name": "Netherlands",
+    "hebrewName": "הולנד",
+    "code": "NED",
+    "flagUrl": "https://flagcdn.com/w80/nl.png",
+    "groupName": "F"
+  },
+  {
+    "id": 7,
+    "externalApiId": "30",
+    "name": "Cape Verde",
+    "hebrewName": "כף ורדה",
+    "code": "CPV",
+    "flagUrl": "https://flagcdn.com/w80/cv.png",
+    "groupName": "H"
+  },
+  {
+    "id": 8,
+    "externalApiId": "33",
+    "name": "France",
+    "hebrewName": "צרפת",
+    "code": "FRA",
+    "flagUrl": "https://flagcdn.com/w80/fr.png",
+    "groupName": "I"
+  },
+  {
+    "id": 9,
+    "externalApiId": "24",
+    "name": "Tunisia",
+    "hebrewName": "תוניסיה",
+    "code": "TUN",
+    "flagUrl": "https://flagcdn.com/w80/tn.png",
+    "groupName": "F"
+  },
+  {
+    "id": 10,
+    "externalApiId": "26",
+    "name": "Egypt",
+    "hebrewName": "מצרים",
+    "code": "EGY",
+    "flagUrl": "https://flagcdn.com/w80/eg.png",
+    "groupName": "G"
+  },
+  {
+    "id": 11,
+    "externalApiId": "35",
+    "name": "Iraq",
+    "hebrewName": "עיראק",
+    "code": "IRQ",
+    "flagUrl": "https://flagcdn.com/w80/iq.png",
+    "groupName": "I"
+  },
+  {
+    "id": 12,
+    "externalApiId": "41",
+    "name": "Portugal",
+    "hebrewName": "פורטוגל",
+    "code": "POR",
+    "flagUrl": "https://flagcdn.com/w80/pt.png",
+    "groupName": "K"
+  },
+  {
+    "id": 13,
+    "externalApiId": "43",
+    "name": "Uzbekistan",
+    "hebrewName": "אוזבקיסטן",
+    "code": "UZB",
+    "flagUrl": "https://flagcdn.com/w80/uz.png",
+    "groupName": "K"
+  },
+  {
+    "id": 14,
+    "externalApiId": "44",
+    "name": "Colombia",
+    "hebrewName": "קולומביה",
+    "code": "COL",
+    "flagUrl": "https://flagcdn.com/w80/co.png",
+    "groupName": "K"
+  },
+  {
+    "id": 15,
+    "externalApiId": "20",
+    "name": "Ecuador",
+    "hebrewName": "אקוודור",
+    "code": "ECU",
+    "flagUrl": "https://flagcdn.com/w80/ec.png",
+    "groupName": "E"
+  },
+  {
+    "id": 16,
+    "externalApiId": "22",
+    "name": "Japan",
+    "hebrewName": "יפן",
+    "code": "JPN",
+    "flagUrl": "https://flagcdn.com/w80/jp.png",
+    "groupName": "F"
+  },
+  {
+    "id": 17,
+    "externalApiId": "28",
+    "name": "New Zealand",
+    "hebrewName": "ניו זילנד",
+    "code": "NZL",
+    "flagUrl": "https://flagcdn.com/w80/nz.png",
+    "groupName": "G"
+  },
+  {
+    "id": 18,
+    "externalApiId": "31",
+    "name": "Saudi Arabia",
+    "hebrewName": "ערב הסעודית",
+    "code": "KSA",
+    "flagUrl": "https://flagcdn.com/w80/sa.png",
+    "groupName": "H"
+  },
+  {
+    "id": 19,
+    "externalApiId": "39",
+    "name": "Austria",
+    "hebrewName": "אוסטריה",
+    "code": "AUT",
+    "flagUrl": "https://flagcdn.com/w80/at.png",
+    "groupName": "J"
+  },
+  {
+    "id": 20,
+    "externalApiId": "47",
+    "name": "Ghana",
+    "hebrewName": "גאנה",
+    "code": "GHA",
+    "flagUrl": "https://flagcdn.com/w80/gh.png",
+    "groupName": "L"
+  },
+  {
+    "id": 21,
+    "externalApiId": "3",
+    "name": "South Korea",
+    "hebrewName": "דרום קוריאה",
+    "code": "KOR",
+    "flagUrl": "https://flagcdn.com/w80/kr.png",
+    "groupName": "A"
+  },
+  {
+    "id": 22,
+    "externalApiId": "29",
+    "name": "Spain",
+    "hebrewName": "ספרד",
+    "code": "ESP",
+    "flagUrl": "https://flagcdn.com/w80/es.png",
+    "groupName": "H"
+  },
+  {
+    "id": 23,
+    "externalApiId": "36",
+    "name": "Norway",
+    "hebrewName": "נורבגיה",
+    "code": "NOR",
+    "flagUrl": "https://flagcdn.com/w80/no.png",
+    "groupName": "I"
+  },
+  {
+    "id": 24,
+    "externalApiId": "37",
+    "name": "Argentina",
+    "hebrewName": "ארגנטינה",
+    "code": "ARG",
+    "flagUrl": "https://flagcdn.com/w80/ar.png",
+    "groupName": "J"
+  },
+  {
+    "id": 25,
+    "externalApiId": "42",
+    "name": "Democratic Republic of the Congo",
+    "hebrewName": "הרפובליקה הדמוקרטית של קונגו",
+    "code": "COD",
+    "flagUrl": "https://flagcdn.com/w80/cd.png",
+    "groupName": "K"
+  },
+  {
+    "id": 26,
+    "externalApiId": "45",
+    "name": "England",
+    "hebrewName": "אנגליה",
+    "code": "ENG",
+    "flagUrl": "https://flagcdn.com/w80/gb-eng.png",
+    "groupName": "L"
+  },
+  {
+    "id": 27,
+    "externalApiId": "4",
+    "name": "Czech Republic",
+    "hebrewName": "צ'כיה",
+    "code": "CZE",
+    "flagUrl": "https://flagcdn.com/w80/cz.png",
+    "groupName": "A"
+  },
+  {
+    "id": 28,
+    "externalApiId": "5",
+    "name": "Canada",
+    "hebrewName": "קנדה",
+    "code": "CAN",
+    "flagUrl": "https://flagcdn.com/w80/ca.png",
+    "groupName": "B"
+  },
+  {
+    "id": 29,
+    "externalApiId": "7",
+    "name": "Qatar",
+    "hebrewName": "קטאר",
+    "code": "QAT",
+    "flagUrl": "https://flagcdn.com/w80/qa.png",
+    "groupName": "B"
+  },
+  {
+    "id": 30,
+    "externalApiId": "8",
+    "name": "Switzerland",
+    "hebrewName": "שווייץ",
+    "code": "SUI",
+    "flagUrl": "https://flagcdn.com/w80/ch.png",
+    "groupName": "B"
+  },
+  {
+    "id": 31,
+    "externalApiId": "10",
+    "name": "Morocco",
+    "hebrewName": "מרוקו",
+    "code": "MAR",
+    "flagUrl": "https://flagcdn.com/w80/ma.png",
+    "groupName": "C"
+  },
+  {
+    "id": 32,
+    "externalApiId": "14",
+    "name": "Paraguay",
+    "hebrewName": "פרגוואי",
+    "code": "PAR",
+    "flagUrl": "https://flagcdn.com/w80/py.png",
+    "groupName": "D"
+  },
+  {
+    "id": 33,
+    "externalApiId": "18",
+    "name": "Curaçao",
+    "hebrewName": "קוראסאו",
+    "code": "CUW",
+    "flagUrl": "https://flagcdn.com/w80/cw.png",
+    "groupName": "E"
+  },
+  {
+    "id": 34,
+    "externalApiId": "23",
+    "name": "Sweden",
+    "hebrewName": "שבדיה",
+    "code": "SWE",
+    "flagUrl": "https://flagcdn.com/w80/se.png",
+    "groupName": "F"
+  },
+  {
+    "id": 35,
+    "externalApiId": "38",
+    "name": "Algeria",
+    "hebrewName": "אלג'יריה",
+    "code": "ALG",
+    "flagUrl": "https://flagcdn.com/w80/dz.png",
+    "groupName": "J"
+  },
+  {
+    "id": 36,
+    "externalApiId": "40",
+    "name": "Jordan",
+    "hebrewName": "ירדן",
+    "code": "JOR",
+    "flagUrl": "https://flagcdn.com/w80/jo.png",
+    "groupName": "J"
+  },
+  {
+    "id": 37,
+    "externalApiId": "11",
+    "name": "Haiti",
+    "hebrewName": "האיטי",
+    "code": "HAI",
+    "flagUrl": "https://flagcdn.com/w80/ht.png",
+    "groupName": "C"
+  },
+  {
+    "id": 38,
+    "externalApiId": "17",
+    "name": "Germany",
+    "hebrewName": "גרמניה",
+    "code": "GER",
+    "flagUrl": "https://flagcdn.com/w80/de.png",
+    "groupName": "E"
+  },
+  {
+    "id": 39,
+    "externalApiId": "32",
+    "name": "Uruguay",
+    "hebrewName": "אורוגוואי",
+    "code": "URU",
+    "flagUrl": "https://flagcdn.com/w80/uy.png",
+    "groupName": "H"
+  },
+  {
+    "id": 40,
+    "externalApiId": "34",
+    "name": "Senegal",
+    "hebrewName": "סנגל",
+    "code": "SEN",
+    "flagUrl": "https://flagcdn.com/w80/sn.png",
+    "groupName": "I"
+  },
+  {
+    "id": 41,
+    "externalApiId": "48",
+    "name": "Panama",
+    "hebrewName": "פנמה",
+    "code": "PAN",
+    "flagUrl": "https://flagcdn.com/w80/pa.png",
+    "groupName": "L"
+  },
+  {
+    "id": 42,
+    "externalApiId": "1",
+    "name": "Mexico",
+    "hebrewName": "מקסיקו",
+    "code": "MEX",
+    "flagUrl": "https://flagcdn.com/w80/mx.png",
+    "groupName": "A"
+  },
+  {
+    "id": 43,
+    "externalApiId": "6",
+    "name": "Bosnia and Herzegovina",
+    "hebrewName": "בוסניה והרצגובינה",
+    "code": "BIH",
+    "flagUrl": "https://flagcdn.com/w80/ba.png",
+    "groupName": "B"
+  },
+  {
+    "id": 44,
+    "externalApiId": "13",
+    "name": "United States",
+    "hebrewName": "ארצות הברית",
+    "code": "USA",
+    "flagUrl": "https://flagcdn.com/w80/us.png",
+    "groupName": "D"
+  },
+  {
+    "id": 45,
+    "externalApiId": "15",
+    "name": "Australia",
+    "hebrewName": "אוסטרליה",
+    "code": "AUS",
+    "flagUrl": "https://flagcdn.com/w80/au.png",
+    "groupName": "D"
+  },
+  {
+    "id": 46,
+    "externalApiId": "25",
+    "name": "Belgium",
+    "hebrewName": "בלגיה",
+    "code": "BEL",
+    "flagUrl": "https://flagcdn.com/w80/be.png",
+    "groupName": "G"
+  },
+  {
+    "id": 47,
+    "externalApiId": "27",
+    "name": "Iran",
+    "hebrewName": "איראן",
+    "code": "IRN",
+    "flagUrl": "https://flagcdn.com/w80/ir.png",
+    "groupName": "G"
+  },
+  {
+    "id": 48,
+    "externalApiId": "46",
+    "name": "Croatia",
+    "hebrewName": "קרואטיה",
+    "code": "CRO",
+    "flagUrl": "https://flagcdn.com/w80/hr.png",
+    "groupName": "L"
+  },
+  {
+    "id": 49,
+    "externalApiId": null,
+    "name": "Winner Group A",
+    "hebrewName": "מנצח בית A",
+    "code": "W1A",
+    "flagUrl": null,
+    "groupName": null
+  },
+  {
+    "id": 50,
+    "externalApiId": null,
+    "name": "Winner Group B",
+    "hebrewName": "מנצח בית B",
+    "code": "W1B",
+    "flagUrl": null,
+    "groupName": null
+  },
+  {
+    "id": 51,
+    "externalApiId": null,
+    "name": "Winner Group C",
+    "hebrewName": "מנצח בית C",
+    "code": "W1C",
+    "flagUrl": null,
+    "groupName": null
+  },
+  {
+    "id": 52,
+    "externalApiId": null,
+    "name": "Winner Group D",
+    "hebrewName": "מנצח בית D",
+    "code": "W1D",
+    "flagUrl": null,
+    "groupName": null
+  },
+  {
+    "id": 53,
+    "externalApiId": null,
+    "name": "Winner Group E",
+    "hebrewName": "מנצח בית E",
+    "code": "W1E",
+    "flagUrl": null,
+    "groupName": null
+  },
+  {
+    "id": 54,
+    "externalApiId": null,
+    "name": "Winner Group F",
+    "hebrewName": "מנצח בית F",
+    "code": "W1F",
+    "flagUrl": null,
+    "groupName": null
+  },
+  {
+    "id": 55,
+    "externalApiId": null,
+    "name": "Winner Group G",
+    "hebrewName": "מנצח בית G",
+    "code": "W1G",
+    "flagUrl": null,
+    "groupName": null
+  },
+  {
+    "id": 56,
+    "externalApiId": null,
+    "name": "Winner Group H",
+    "hebrewName": "מנצח בית H",
+    "code": "W1H",
+    "flagUrl": null,
+    "groupName": null
+  },
+  {
+    "id": 57,
+    "externalApiId": null,
+    "name": "Winner Group I",
+    "hebrewName": "מנצח בית I",
+    "code": "W1I",
+    "flagUrl": null,
+    "groupName": null
+  },
+  {
+    "id": 58,
+    "externalApiId": null,
+    "name": "Winner Group J",
+    "hebrewName": "מנצח בית J",
+    "code": "W1J",
+    "flagUrl": null,
+    "groupName": null
+  },
+  {
+    "id": 59,
+    "externalApiId": null,
+    "name": "Winner Group K",
+    "hebrewName": "מנצח בית K",
+    "code": "W1K",
+    "flagUrl": null,
+    "groupName": null
+  },
+  {
+    "id": 60,
+    "externalApiId": null,
+    "name": "Winner Group L",
+    "hebrewName": "מנצח בית L",
+    "code": "W1L",
+    "flagUrl": null,
+    "groupName": null
+  },
+  {
+    "id": 61,
+    "externalApiId": null,
+    "name": "Runner-up Group A",
+    "hebrewName": "סגן בית A",
+    "code": "W2A",
+    "flagUrl": null,
+    "groupName": null
+  },
+  {
+    "id": 62,
+    "externalApiId": null,
+    "name": "Runner-up Group B",
+    "hebrewName": "סגן בית B",
+    "code": "W2B",
+    "flagUrl": null,
+    "groupName": null
+  },
+  {
+    "id": 63,
+    "externalApiId": null,
+    "name": "Runner-up Group C",
+    "hebrewName": "סגן בית C",
+    "code": "W2C",
+    "flagUrl": null,
+    "groupName": null
+  },
+  {
+    "id": 64,
+    "externalApiId": null,
+    "name": "Runner-up Group D",
+    "hebrewName": "סגן בית D",
+    "code": "W2D",
+    "flagUrl": null,
+    "groupName": null
+  },
+  {
+    "id": 65,
+    "externalApiId": null,
+    "name": "Runner-up Group E",
+    "hebrewName": "סגן בית E",
+    "code": "W2E",
+    "flagUrl": null,
+    "groupName": null
+  },
+  {
+    "id": 66,
+    "externalApiId": null,
+    "name": "Runner-up Group F",
+    "hebrewName": "סגן בית F",
+    "code": "W2F",
+    "flagUrl": null,
+    "groupName": null
+  },
+  {
+    "id": 67,
+    "externalApiId": null,
+    "name": "Runner-up Group G",
+    "hebrewName": "סגן בית G",
+    "code": "W2G",
+    "flagUrl": null,
+    "groupName": null
+  },
+  {
+    "id": 68,
+    "externalApiId": null,
+    "name": "Runner-up Group H",
+    "hebrewName": "סגן בית H",
+    "code": "W2H",
+    "flagUrl": null,
+    "groupName": null
+  },
+  {
+    "id": 69,
+    "externalApiId": null,
+    "name": "Runner-up Group I",
+    "hebrewName": "סגן בית I",
+    "code": "W2I",
+    "flagUrl": null,
+    "groupName": null
+  },
+  {
+    "id": 70,
+    "externalApiId": null,
+    "name": "Runner-up Group J",
+    "hebrewName": "סגן בית J",
+    "code": "W2J",
+    "flagUrl": null,
+    "groupName": null
+  },
+  {
+    "id": 71,
+    "externalApiId": null,
+    "name": "Runner-up Group K",
+    "hebrewName": "סגן בית K",
+    "code": "W2K",
+    "flagUrl": null,
+    "groupName": null
+  },
+  {
+    "id": 72,
+    "externalApiId": null,
+    "name": "Runner-up Group L",
+    "hebrewName": "סגן בית L",
+    "code": "W2L",
+    "flagUrl": null,
+    "groupName": null
+  },
+  {
+    "id": 73,
+    "externalApiId": null,
+    "name": "3rd Place Team 1",
+    "hebrewName": "קבוצה במקום 3 (1)",
+    "code": "T3_1",
+    "flagUrl": null,
+    "groupName": null
+  },
+  {
+    "id": 74,
+    "externalApiId": null,
+    "name": "3rd Place Team 2",
+    "hebrewName": "קבוצה במקום 3 (2)",
+    "code": "T3_2",
+    "flagUrl": null,
+    "groupName": null
+  },
+  {
+    "id": 75,
+    "externalApiId": null,
+    "name": "3rd Place Team 3",
+    "hebrewName": "קבוצה במקום 3 (3)",
+    "code": "T3_3",
+    "flagUrl": null,
+    "groupName": null
+  },
+  {
+    "id": 76,
+    "externalApiId": null,
+    "name": "3rd Place Team 4",
+    "hebrewName": "קבוצה במקום 3 (4)",
+    "code": "T3_4",
+    "flagUrl": null,
+    "groupName": null
+  },
+  {
+    "id": 77,
+    "externalApiId": null,
+    "name": "3rd Place Team 5",
+    "hebrewName": "קבוצה במקום 3 (5)",
+    "code": "T3_5",
+    "flagUrl": null,
+    "groupName": null
+  },
+  {
+    "id": 78,
+    "externalApiId": null,
+    "name": "3rd Place Team 6",
+    "hebrewName": "קבוצה במקום 3 (6)",
+    "code": "T3_6",
+    "flagUrl": null,
+    "groupName": null
+  },
+  {
+    "id": 79,
+    "externalApiId": null,
+    "name": "3rd Place Team 7",
+    "hebrewName": "קבוצה במקום 3 (7)",
+    "code": "T3_7",
+    "flagUrl": null,
+    "groupName": null
+  },
+  {
+    "id": 80,
+    "externalApiId": null,
+    "name": "3rd Place Team 8",
+    "hebrewName": "קבוצה במקום 3 (8)",
+    "code": "T3_8",
+    "flagUrl": null,
+    "groupName": null
+  },
+  {
+    "id": 81,
+    "externalApiId": null,
+    "name": "Round of 32 Winner 1",
+    "hebrewName": "מנצח שלב 32 (1)",
+    "code": "WR32_1",
+    "flagUrl": null,
+    "groupName": null
+  },
+  {
+    "id": 82,
+    "externalApiId": null,
+    "name": "Round of 32 Winner 2",
+    "hebrewName": "מנצח שלב 32 (2)",
+    "code": "WR32_2",
+    "flagUrl": null,
+    "groupName": null
+  },
+  {
+    "id": 83,
+    "externalApiId": null,
+    "name": "Round of 32 Winner 3",
+    "hebrewName": "מנצח שלב 32 (3)",
+    "code": "WR32_3",
+    "flagUrl": null,
+    "groupName": null
+  },
+  {
+    "id": 84,
+    "externalApiId": null,
+    "name": "Round of 32 Winner 4",
+    "hebrewName": "מנצח שלב 32 (4)",
+    "code": "WR32_4",
+    "flagUrl": null,
+    "groupName": null
+  },
+  {
+    "id": 85,
+    "externalApiId": null,
+    "name": "Round of 32 Winner 5",
+    "hebrewName": "מנצח שלב 32 (5)",
+    "code": "WR32_5",
+    "flagUrl": null,
+    "groupName": null
+  },
+  {
+    "id": 86,
+    "externalApiId": null,
+    "name": "Round of 32 Winner 6",
+    "hebrewName": "מנצח שלב 32 (6)",
+    "code": "WR32_6",
+    "flagUrl": null,
+    "groupName": null
+  },
+  {
+    "id": 87,
+    "externalApiId": null,
+    "name": "Round of 32 Winner 7",
+    "hebrewName": "מנצח שלב 32 (7)",
+    "code": "WR32_7",
+    "flagUrl": null,
+    "groupName": null
+  },
+  {
+    "id": 88,
+    "externalApiId": null,
+    "name": "Round of 32 Winner 8",
+    "hebrewName": "מנצח שלב 32 (8)",
+    "code": "WR32_8",
+    "flagUrl": null,
+    "groupName": null
+  },
+  {
+    "id": 89,
+    "externalApiId": null,
+    "name": "Round of 32 Winner 9",
+    "hebrewName": "מנצח שלב 32 (9)",
+    "code": "WR32_9",
+    "flagUrl": null,
+    "groupName": null
+  },
+  {
+    "id": 90,
+    "externalApiId": null,
+    "name": "Round of 32 Winner 10",
+    "hebrewName": "מנצח שלב 32 (10)",
+    "code": "WR32_10",
+    "flagUrl": null,
+    "groupName": null
+  },
+  {
+    "id": 91,
+    "externalApiId": null,
+    "name": "Round of 32 Winner 11",
+    "hebrewName": "מנצח שלב 32 (11)",
+    "code": "WR32_11",
+    "flagUrl": null,
+    "groupName": null
+  },
+  {
+    "id": 92,
+    "externalApiId": null,
+    "name": "Round of 32 Winner 12",
+    "hebrewName": "מנצח שלב 32 (12)",
+    "code": "WR32_12",
+    "flagUrl": null,
+    "groupName": null
+  },
+  {
+    "id": 93,
+    "externalApiId": null,
+    "name": "Round of 32 Winner 13",
+    "hebrewName": "מנצח שלב 32 (13)",
+    "code": "WR32_13",
+    "flagUrl": null,
+    "groupName": null
+  },
+  {
+    "id": 94,
+    "externalApiId": null,
+    "name": "Round of 32 Winner 14",
+    "hebrewName": "מנצח שלב 32 (14)",
+    "code": "WR32_14",
+    "flagUrl": null,
+    "groupName": null
+  },
+  {
+    "id": 95,
+    "externalApiId": null,
+    "name": "Round of 32 Winner 15",
+    "hebrewName": "מנצח שלב 32 (15)",
+    "code": "WR32_15",
+    "flagUrl": null,
+    "groupName": null
+  },
+  {
+    "id": 96,
+    "externalApiId": null,
+    "name": "Round of 32 Winner 16",
+    "hebrewName": "מנצח שלב 32 (16)",
+    "code": "WR32_16",
+    "flagUrl": null,
+    "groupName": null
+  },
+  {
+    "id": 97,
+    "externalApiId": null,
+    "name": "Round of 16 Winner 1",
+    "hebrewName": "מנצח שלב 16 (1)",
+    "code": "WR16_1",
+    "flagUrl": null,
+    "groupName": null
+  },
+  {
+    "id": 98,
+    "externalApiId": null,
+    "name": "Round of 16 Winner 2",
+    "hebrewName": "מנצח שלב 16 (2)",
+    "code": "WR16_2",
+    "flagUrl": null,
+    "groupName": null
+  },
+  {
+    "id": 99,
+    "externalApiId": null,
+    "name": "Round of 16 Winner 3",
+    "hebrewName": "מנצח שלב 16 (3)",
+    "code": "WR16_3",
+    "flagUrl": null,
+    "groupName": null
+  },
+  {
+    "id": 100,
+    "externalApiId": null,
+    "name": "Round of 16 Winner 4",
+    "hebrewName": "מנצח שלב 16 (4)",
+    "code": "WR16_4",
+    "flagUrl": null,
+    "groupName": null
+  },
+  {
+    "id": 101,
+    "externalApiId": null,
+    "name": "Round of 16 Winner 5",
+    "hebrewName": "מנצח שלב 16 (5)",
+    "code": "WR16_5",
+    "flagUrl": null,
+    "groupName": null
+  },
+  {
+    "id": 102,
+    "externalApiId": null,
+    "name": "Round of 16 Winner 6",
+    "hebrewName": "מנצח שלב 16 (6)",
+    "code": "WR16_6",
+    "flagUrl": null,
+    "groupName": null
+  },
+  {
+    "id": 103,
+    "externalApiId": null,
+    "name": "Round of 16 Winner 7",
+    "hebrewName": "מנצח שלב 16 (7)",
+    "code": "WR16_7",
+    "flagUrl": null,
+    "groupName": null
+  },
+  {
+    "id": 104,
+    "externalApiId": null,
+    "name": "Round of 16 Winner 8",
+    "hebrewName": "מנצח שלב 16 (8)",
+    "code": "WR16_8",
+    "flagUrl": null,
+    "groupName": null
+  },
+  {
+    "id": 105,
+    "externalApiId": null,
+    "name": "Quarter-final Winner 1",
+    "hebrewName": "מנצח רבע גמר (1)",
+    "code": "WQF_1",
+    "flagUrl": null,
+    "groupName": null
+  },
+  {
+    "id": 106,
+    "externalApiId": null,
+    "name": "Quarter-final Winner 2",
+    "hebrewName": "מנצח רבע גמר (2)",
+    "code": "WQF_2",
+    "flagUrl": null,
+    "groupName": null
+  },
+  {
+    "id": 107,
+    "externalApiId": null,
+    "name": "Quarter-final Winner 3",
+    "hebrewName": "מנצח רבע גמר (3)",
+    "code": "WQF_3",
+    "flagUrl": null,
+    "groupName": null
+  },
+  {
+    "id": 108,
+    "externalApiId": null,
+    "name": "Quarter-final Winner 4",
+    "hebrewName": "מנצח רבע גמר (4)",
+    "code": "WQF_4",
+    "flagUrl": null,
+    "groupName": null
+  },
+  {
+    "id": 109,
+    "externalApiId": null,
+    "name": "Semi-final Winner 1",
+    "hebrewName": "מנצח חצי גמר 1",
+    "code": "WSF_1",
+    "flagUrl": null,
+    "groupName": null
+  },
+  {
+    "id": 110,
+    "externalApiId": null,
+    "name": "Semi-final Winner 2",
+    "hebrewName": "מנצח חצי גמר 2",
+    "code": "WSF_2",
+    "flagUrl": null,
+    "groupName": null
+  },
+  {
+    "id": 111,
+    "externalApiId": null,
+    "name": "Semi-final Loser 1",
+    "hebrewName": "מפסיד חצי גמר 1",
+    "code": "LSF_1",
+    "flagUrl": null,
+    "groupName": null
+  },
+  {
+    "id": 112,
+    "externalApiId": null,
+    "name": "Semi-final Loser 2",
+    "hebrewName": "מפסיד חצי גמר 2",
+    "code": "LSF_2",
+    "flagUrl": null,
+    "groupName": null
+  }
+]

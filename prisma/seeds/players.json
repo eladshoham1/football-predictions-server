@@ -1,0 +1,618 @@
+[
+  {
+    "id": 1,
+    "externalApiId": null,
+    "name": "Lionel Messi",
+    "position": "Forward",
+    "teamCode": "ARG"
+  },
+  {
+    "id": 2,
+    "externalApiId": null,
+    "name": "Lautaro Martínez",
+    "position": "Forward",
+    "teamCode": "ARG"
+  },
+  {
+    "id": 3,
+    "externalApiId": null,
+    "name": "Julián Álvarez",
+    "position": "Forward",
+    "teamCode": "ARG"
+  },
+  {
+    "id": 4,
+    "externalApiId": null,
+    "name": "Vinícius Júnior",
+    "position": "Forward",
+    "teamCode": "BRA"
+  },
+  {
+    "id": 5,
+    "externalApiId": null,
+    "name": "Neymar Jr",
+    "position": "Forward",
+    "teamCode": "BRA"
+  },
+  {
+    "id": 6,
+    "externalApiId": null,
+    "name": "Richarlison",
+    "position": "Forward",
+    "teamCode": "BRA"
+  },
+  {
+    "id": 7,
+    "externalApiId": null,
+    "name": "Kylian Mbappé",
+    "position": "Forward",
+    "teamCode": "FRA"
+  },
+  {
+    "id": 8,
+    "externalApiId": null,
+    "name": "Antoine Griezmann",
+    "position": "Forward",
+    "teamCode": "FRA"
+  },
+  {
+    "id": 9,
+    "externalApiId": null,
+    "name": "Olivier Giroud",
+    "position": "Forward",
+    "teamCode": "FRA"
+  },
+  {
+    "id": 10,
+    "externalApiId": null,
+    "name": "Harry Kane",
+    "position": "Forward",
+    "teamCode": "ENG"
+  },
+  {
+    "id": 11,
+    "externalApiId": null,
+    "name": "Bukayo Saka",
+    "position": "Forward",
+    "teamCode": "ENG"
+  },
+  {
+    "id": 12,
+    "externalApiId": null,
+    "name": "Phil Foden",
+    "position": "Forward",
+    "teamCode": "ENG"
+  },
+  {
+    "id": 13,
+    "externalApiId": null,
+    "name": "Álvaro Morata",
+    "position": "Forward",
+    "teamCode": "ESP"
+  },
+  {
+    "id": 14,
+    "externalApiId": null,
+    "name": "Ferran Torres",
+    "position": "Forward",
+    "teamCode": "ESP"
+  },
+  {
+    "id": 15,
+    "externalApiId": null,
+    "name": "Dani Olmo",
+    "position": "Forward",
+    "teamCode": "ESP"
+  },
+  {
+    "id": 16,
+    "externalApiId": null,
+    "name": "Kai Havertz",
+    "position": "Forward",
+    "teamCode": "GER"
+  },
+  {
+    "id": 17,
+    "externalApiId": null,
+    "name": "Thomas Müller",
+    "position": "Forward",
+    "teamCode": "GER"
+  },
+  {
+    "id": 18,
+    "externalApiId": null,
+    "name": "Serge Gnabry",
+    "position": "Forward",
+    "teamCode": "GER"
+  },
+  {
+    "id": 19,
+    "externalApiId": null,
+    "name": "Cristiano Ronaldo",
+    "position": "Forward",
+    "teamCode": "POR"
+  },
+  {
+    "id": 20,
+    "externalApiId": null,
+    "name": "Bruno Fernandes",
+    "position": "Midfielder",
+    "teamCode": "POR"
+  },
+  {
+    "id": 21,
+    "externalApiId": null,
+    "name": "Rafael Leão",
+    "position": "Forward",
+    "teamCode": "POR"
+  },
+  {
+    "id": 22,
+    "externalApiId": null,
+    "name": "Memphis Depay",
+    "position": "Forward",
+    "teamCode": "NED"
+  },
+  {
+    "id": 23,
+    "externalApiId": null,
+    "name": "Cody Gakpo",
+    "position": "Forward",
+    "teamCode": "NED"
+  },
+  {
+    "id": 24,
+    "externalApiId": null,
+    "name": "Wout Weghorst",
+    "position": "Forward",
+    "teamCode": "NED"
+  },
+  {
+    "id": 25,
+    "externalApiId": null,
+    "name": "Romelu Lukaku",
+    "position": "Forward",
+    "teamCode": "BEL"
+  },
+  {
+    "id": 26,
+    "externalApiId": null,
+    "name": "Kevin De Bruyne",
+    "position": "Midfielder",
+    "teamCode": "BEL"
+  },
+  {
+    "id": 27,
+    "externalApiId": null,
+    "name": "Dries Mertens",
+    "position": "Forward",
+    "teamCode": "BEL"
+  },
+  {
+    "id": 28,
+    "externalApiId": null,
+    "name": "Luis Suárez",
+    "position": "Forward",
+    "teamCode": "URU"
+  },
+  {
+    "id": 29,
+    "externalApiId": null,
+    "name": "Darwin Núñez",
+    "position": "Forward",
+    "teamCode": "URU"
+  },
+  {
+    "id": 30,
+    "externalApiId": null,
+    "name": "Edinson Cavani",
+    "position": "Forward",
+    "teamCode": "URU"
+  },
+  {
+    "id": 31,
+    "externalApiId": null,
+    "name": "Son Heung-min",
+    "position": "Forward",
+    "teamCode": "KOR"
+  },
+  {
+    "id": 32,
+    "externalApiId": null,
+    "name": "Memphis Depay",
+    "position": "Forward",
+    "teamCode": "USA"
+  },
+  {
+    "id": 33,
+    "externalApiId": null,
+    "name": "Hirving Lozano",
+    "position": "Forward",
+    "teamCode": "MEX"
+  },
+  {
+    "id": 34,
+    "externalApiId": null,
+    "name": "Raúl Jiménez",
+    "position": "Forward",
+    "teamCode": "MEX"
+  },
+  {
+    "id": 35,
+    "externalApiId": null,
+    "name": "Percy Tau",
+    "position": "Forward",
+    "teamCode": "RSA"
+  },
+  {
+    "id": 36,
+    "externalApiId": null,
+    "name": "Hwang Hee-chan",
+    "position": "Forward",
+    "teamCode": "KOR"
+  },
+  {
+    "id": 37,
+    "externalApiId": null,
+    "name": "Patrik Schick",
+    "position": "Forward",
+    "teamCode": "CZE"
+  },
+  {
+    "id": 38,
+    "externalApiId": null,
+    "name": "Jonathan David",
+    "position": "Forward",
+    "teamCode": "CAN"
+  },
+  {
+    "id": 39,
+    "externalApiId": null,
+    "name": "Alphonso Davies",
+    "position": "Midfielder",
+    "teamCode": "CAN"
+  },
+  {
+    "id": 40,
+    "externalApiId": null,
+    "name": "Edin Džeko",
+    "position": "Forward",
+    "teamCode": "BIH"
+  },
+  {
+    "id": 41,
+    "externalApiId": null,
+    "name": "Akram Afif",
+    "position": "Forward",
+    "teamCode": "QAT"
+  },
+  {
+    "id": 42,
+    "externalApiId": null,
+    "name": "Breel Embolo",
+    "position": "Forward",
+    "teamCode": "SUI"
+  },
+  {
+    "id": 43,
+    "externalApiId": null,
+    "name": "Xherdan Shaqiri",
+    "position": "Midfielder",
+    "teamCode": "SUI"
+  },
+  {
+    "id": 44,
+    "externalApiId": null,
+    "name": "Youssef En-Nesyri",
+    "position": "Forward",
+    "teamCode": "MAR"
+  },
+  {
+    "id": 45,
+    "externalApiId": null,
+    "name": "Hakim Ziyech",
+    "position": "Midfielder",
+    "teamCode": "MAR"
+  },
+  {
+    "id": 46,
+    "externalApiId": null,
+    "name": "Che Adams",
+    "position": "Forward",
+    "teamCode": "SCO"
+  },
+  {
+    "id": 47,
+    "externalApiId": null,
+    "name": "Duckens Nazon",
+    "position": "Forward",
+    "teamCode": "HAI"
+  },
+  {
+    "id": 48,
+    "externalApiId": null,
+    "name": "Christian Pulisic",
+    "position": "Forward",
+    "teamCode": "USA"
+  },
+  {
+    "id": 49,
+    "externalApiId": null,
+    "name": "Folarin Balogun",
+    "position": "Forward",
+    "teamCode": "USA"
+  },
+  {
+    "id": 50,
+    "externalApiId": null,
+    "name": "Miguel Almirón",
+    "position": "Forward",
+    "teamCode": "PAR"
+  },
+  {
+    "id": 51,
+    "externalApiId": null,
+    "name": "Burak Yılmaz",
+    "position": "Forward",
+    "teamCode": "TUR"
+  },
+  {
+    "id": 52,
+    "externalApiId": null,
+    "name": "Hakan Çalhanoğlu",
+    "position": "Midfielder",
+    "teamCode": "TUR"
+  },
+  {
+    "id": 53,
+    "externalApiId": null,
+    "name": "Mathew Leckie",
+    "position": "Forward",
+    "teamCode": "AUS"
+  },
+  {
+    "id": 54,
+    "externalApiId": null,
+    "name": "Awer Mabil",
+    "position": "Forward",
+    "teamCode": "AUS"
+  },
+  {
+    "id": 55,
+    "externalApiId": null,
+    "name": "Nicolas Jackson",
+    "position": "Forward",
+    "teamCode": "CIV"
+  },
+  {
+    "id": 56,
+    "externalApiId": null,
+    "name": "Sébastien Haller",
+    "position": "Forward",
+    "teamCode": "CIV"
+  },
+  {
+    "id": 57,
+    "externalApiId": null,
+    "name": "Enner Valencia",
+    "position": "Forward",
+    "teamCode": "ECU"
+  },
+  {
+    "id": 58,
+    "externalApiId": null,
+    "name": "Leandro Trochez",
+    "position": "Forward",
+    "teamCode": "CUW"
+  },
+  {
+    "id": 59,
+    "externalApiId": null,
+    "name": "Takumi Minamino",
+    "position": "Forward",
+    "teamCode": "JPN"
+  },
+  {
+    "id": 60,
+    "externalApiId": null,
+    "name": "Daichi Kamada",
+    "position": "Midfielder",
+    "teamCode": "JPN"
+  },
+  {
+    "id": 61,
+    "externalApiId": null,
+    "name": "Aïssa Laïdouni",
+    "position": "Midfielder",
+    "teamCode": "TUN"
+  },
+  {
+    "id": 62,
+    "externalApiId": null,
+    "name": "Alexander Isak",
+    "position": "Forward",
+    "teamCode": "SWE"
+  },
+  {
+    "id": 63,
+    "externalApiId": null,
+    "name": "Viktor Gyökeres",
+    "position": "Forward",
+    "teamCode": "SWE"
+  },
+  {
+    "id": 64,
+    "externalApiId": null,
+    "name": "Mohamed Salah",
+    "position": "Forward",
+    "teamCode": "EGY"
+  },
+  {
+    "id": 65,
+    "externalApiId": null,
+    "name": "Mostafa Mohamed",
+    "position": "Forward",
+    "teamCode": "EGY"
+  },
+  {
+    "id": 66,
+    "externalApiId": null,
+    "name": "Sardar Azmoun",
+    "position": "Forward",
+    "teamCode": "IRN"
+  },
+  {
+    "id": 67,
+    "externalApiId": null,
+    "name": "Mehdi Taremi",
+    "position": "Forward",
+    "teamCode": "IRN"
+  },
+  {
+    "id": 68,
+    "externalApiId": null,
+    "name": "Chris Wood",
+    "position": "Forward",
+    "teamCode": "NZL"
+  },
+  {
+    "id": 69,
+    "externalApiId": null,
+    "name": "Jamiro Monteiro",
+    "position": "Midfielder",
+    "teamCode": "CPV"
+  },
+  {
+    "id": 70,
+    "externalApiId": null,
+    "name": "Salem Al-Dawsari",
+    "position": "Forward",
+    "teamCode": "KSA"
+  },
+  {
+    "id": 71,
+    "externalApiId": null,
+    "name": "Sadio Mané",
+    "position": "Forward",
+    "teamCode": "SEN"
+  },
+  {
+    "id": 72,
+    "externalApiId": null,
+    "name": "Ismaïla Sarr",
+    "position": "Forward",
+    "teamCode": "SEN"
+  },
+  {
+    "id": 73,
+    "externalApiId": null,
+    "name": "Aymen Hussein",
+    "position": "Forward",
+    "teamCode": "IRQ"
+  },
+  {
+    "id": 74,
+    "externalApiId": null,
+    "name": "Erling Haaland",
+    "position": "Forward",
+    "teamCode": "NOR"
+  },
+  {
+    "id": 75,
+    "externalApiId": null,
+    "name": "Alexander Sørloth",
+    "position": "Forward",
+    "teamCode": "NOR"
+  },
+  {
+    "id": 76,
+    "externalApiId": null,
+    "name": "Riyad Mahrez",
+    "position": "Forward",
+    "teamCode": "ALG"
+  },
+  {
+    "id": 77,
+    "externalApiId": null,
+    "name": "Baghdad Bounedjah",
+    "position": "Forward",
+    "teamCode": "ALG"
+  },
+  {
+    "id": 78,
+    "externalApiId": null,
+    "name": "Marko Arnautović",
+    "position": "Forward",
+    "teamCode": "AUT"
+  },
+  {
+    "id": 79,
+    "externalApiId": null,
+    "name": "Yazan Al-Naimat",
+    "position": "Forward",
+    "teamCode": "JOR"
+  },
+  {
+    "id": 80,
+    "externalApiId": null,
+    "name": "Cédric Bakambu",
+    "position": "Forward",
+    "teamCode": "COD"
+  },
+  {
+    "id": 81,
+    "externalApiId": null,
+    "name": "Eldor Shomurodov",
+    "position": "Forward",
+    "teamCode": "UZB"
+  },
+  {
+    "id": 82,
+    "externalApiId": null,
+    "name": "Luis Díaz",
+    "position": "Forward",
+    "teamCode": "COL"
+  },
+  {
+    "id": 83,
+    "externalApiId": null,
+    "name": "James Rodríguez",
+    "position": "Midfielder",
+    "teamCode": "COL"
+  },
+  {
+    "id": 84,
+    "externalApiId": null,
+    "name": "Luka Modrić",
+    "position": "Midfielder",
+    "teamCode": "CRO"
+  },
+  {
+    "id": 85,
+    "externalApiId": null,
+    "name": "Ivan Perišić",
+    "position": "Forward",
+    "teamCode": "CRO"
+  },
+  {
+    "id": 86,
+    "externalApiId": null,
+    "name": "Mohammed Kudus",
+    "position": "Forward",
+    "teamCode": "GHA"
+  },
+  {
+    "id": 87,
+    "externalApiId": null,
+    "name": "Iñaki Williams",
+    "position": "Forward",
+    "teamCode": "GHA"
+  },
+  {
+    "id": 88,
+    "externalApiId": null,
+    "name": "José Fajardo",
+    "position": "Forward",
+    "teamCode": "PAN"
+  }
+]
