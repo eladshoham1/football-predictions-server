@@ -22,7 +22,7 @@ export class AuthController {
     const token = this.svc.generateJwt(user.id)
 
     // Redirect to client with token in URL query
-    const clientUrl = process.env.CLIENT_URL || 'http://localhost:5173'
+    const clientUrl = process.env.FRONTEND_URL || process.env.CLIENT_URL || 'http://localhost:5173'
     res.redirect(`${clientUrl}/?token=${token}`)
   }
 
