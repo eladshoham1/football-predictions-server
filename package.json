@@ -2,6 +2,9 @@
   "name": "football-predictions-final-server",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=18.0.0 <=20.x"
+  },
   "prisma": {
     "seed": "tsx prisma/seed.ts"
   },
