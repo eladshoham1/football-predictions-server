@@ -6,8 +6,8 @@ services:
     env: node
     region: oregon
     plan: free
-    buildCommand: npm ci && npx prisma generate && npx prisma migrate deploy && npm run build && npx prisma db seed
-    startCommand: npm run start:prod
+    buildCommand: npm ci && npx prisma generate && npm run build
+    startCommand: chmod +x start.sh && ./start.sh
     healthCheckPath: /
     envVars:
       - key: NODE_ENV
